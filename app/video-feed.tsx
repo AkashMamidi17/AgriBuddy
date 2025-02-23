@@ -43,7 +43,7 @@ export function VideoFeed() {
       <Card>
         <CardHeader className="flex flex-row items-center gap-4">
           <Avatar>
-            <AvatarImage src="/placeholder.svg" alt="Farmer" />
+            <AvatarImage src="" alt="Farmer" />
             <AvatarFallback>FM</AvatarFallback>
           </Avatar>
           <div>
@@ -52,10 +52,14 @@ export function VideoFeed() {
           </div>
         </CardHeader>
         <CardContent>
-          <video className="w-full rounded-lg" controls poster="/placeholder.svg?height=400&width=600">
-            <source src="/example-video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+        <iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/dMe-d6s9YEU" 
+  frameBorder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowFullScreen
+></iframe>
         </CardContent>
         <CardFooter className="flex justify-between">
           <Button variant="ghost" size="icon">

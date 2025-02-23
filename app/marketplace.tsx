@@ -12,7 +12,7 @@ export function MarketPlace() {
       <Card>
         <CardHeader>
           <Image
-            src="/placeholder.svg"
+            src="/image.png"
             alt="Organic Rice"
             width={300}
             height={200}
