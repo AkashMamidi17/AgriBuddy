@@ -43,7 +43,7 @@ export function VideoFeed() {
       <Card>
         <CardHeader className="flex flex-row items-center gap-4">
           <Avatar>
-            <AvatarImage src="" alt="Farmer" />
+            <AvatarImage src="/farmericon.jpg" alt="Farmer image" />
             <AvatarFallback>FM</AvatarFallback>
           </Avatar>
           <div>
@@ -53,13 +53,13 @@ export function VideoFeed() {
         </CardHeader>
         <CardContent>
         <iframe 
-  width="560" 
-  height="315" 
-  src="https://www.youtube.com/embed/dMe-d6s9YEU" 
-  frameBorder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowFullScreen
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/dMe-d6s9YEU" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen
 ></iframe>
+
         </CardContent>
         <CardFooter className="flex justify-between">
           <Button variant="ghost" size="icon">
